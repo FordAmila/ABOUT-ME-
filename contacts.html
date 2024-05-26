@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" type="image/jpg" href="MY 20 PIC/favicon.jpg">
+    <title>CONTACT ME</title>
+    <style>
+        body {
+            background-color: #35374B;
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(173, 231, 159, 0.733);
+            border-radius: 25px;
+            
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 96%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            justify-content: space-evenly;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        . {
+    box-sizing: border border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+li, a,button {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display:inline-block;
+    padding: 0px 20px;
+    
+}
+.nav_links li a {
+    transision: all 0.3s ease 0s; 
+}
+.nav_links li a:hover {
+    color: #0dbfeb;
+}
+button {
+    padding: 10px 25px;
+    background-color: rgb(218, 230, 233);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    position:relative;
+}
+button:hover {
+    background-color: rgba(14, 11, 182, 0.8);
+    .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Change the color as needed */
+    text-decoration: none;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.social-icons a:hover {
+    color: #0c56eb; /* Change the hover color as needed */    
+}
+a {
+    text-align: center;
+}
+body {
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover;
+    background-color: ;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="ABOUT ME.html" title=><button>HOME</button><a></li>
+                <li><a href="me.html"><button>ABOUT ME</button><a></li> 
+                <li><a href="SKILLS.html"><button>SKILLS</button><a></li>
+                <li><a href="project.html"><button>PROJECTS</button><a></li>
+                <li><a href="contacts.html"><button>CONTACTS</button></a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Email: <a href="mailto:ccaamila@universityofbohol.edu.ph">ccaamila@universityofbohol.edu.ph</a></p>
+        <p>Cellphone: <a href="tel:+1234567890">09701932752</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100079244644636" target="_blank">Ford Amila</a></p>
+        <h2>Send me a message</h2>
+        <form method="post" action="/submit_form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+        <br>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100079244644636" target="_blank"><img src="MY 20 PIC/facebook1.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/@FordTv-pf9ly" target="_blank"><img src="MY 20 PIC/youtube1.png" alt="YouTube"></a>
+            <a href="https://www.instagram.com/itsford_08/" target="_blank"><img src="MY 20 PIC/Instagram1.png" alt="Instagram"></a>
+        </div>
+
+    </div>
+</body>
+</html>
